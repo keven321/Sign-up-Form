@@ -1,0 +1,55 @@
+@media (min-width: 481px) and (max-width: 767px){
+    body{
+        background-image: url(../images/bg-intro-mobile.png);
+        background-color: #ff7879;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h1, p{
+        color: white;
+        text-align: center;
+    }
+    
+    .link{
+        background-color: #5d54a3;
+        padding: 0.5em;
+        border-radius: 5px;
+    }
+    
+    form{
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+    }
+    
+    .center{
+        text-align: center;
+    }
+    
+    input[type="text"], input[type="password"], input[type="email"]{
+        padding: 10px;
+        border: 0.5px solid lightgray;
+        border-radius: 2px;
+    }
+    
+    .submit{
+        text-decoration: none;
+        margin: 0 auto;
+        background-color: #37cd8b;
+        padding: 0.5em;
+        border-radius: 2px;
+        color: white;
+    }
+    
+    .terms{
+        color: lightgray;
+        font-size: 10px;
+    }
+    
+    #red{
+        font-size: 10px;
+        color: #f1a29e;
+    }
+}
+
